@@ -37,7 +37,7 @@ overflow: hidden;
 background-color: #FFB8CA;
 }
 @media screen and (max-width: 320px){
-.header-background-circle{
+.header-background-circle-a{
 background-image: url(../../../png/background-first.png);
 background-repeat: no-repeat;
 background-color: #FFA5BA;
@@ -187,11 +187,11 @@ display: none;
 //     background-color: #FFB8CA;
 // }
 // }
-// @media screen and (max-width: 320px){
-// .header-background-tab{
-//     display: none;
-// }
-// }
+
+.header-background-tab{
+   height: 399px;
+}
+
 // @media screen and (max-width: 768px){
 // .header-background-mob{
 //     display: none;
@@ -284,7 +284,15 @@ right: 20px;
 }
 
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
+.header-first-svg-b{
+position: absolute;
+top: 25px;
+right: 20px;
+}
+
+}
+@media screen and (min-width: 768px){
 .header-first-svg-b{
 position: absolute;
 top: 52px;
