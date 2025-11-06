@@ -89,8 +89,8 @@ color: #FFFFFF;
 @media screen and (max-width: 767px){
 .mobile-menu-nav-item{
 border-top: 1px solid rgba(153, 151, 151, 0.5);
-    border-bottom: 1px solid rgba(153, 151, 151, 0.5);
-
+   
+padding: 13px 0;
 
 }
 }
@@ -99,4 +99,141 @@ border-top: 1px solid rgba(153, 151, 151, 0.5);
 .is-hidden{
 transform: translateX(100%);
 }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px){
+.header-first-svg-b{
+width: 20px;
+    height: 12px;
+    position: absolute;
+    top: 52px;
+    right: 224px;
+    z-index: 8;
+}
+}
+
+
+@media screen and (min-width: 768px){
+.mobile-menu{
+width: 254px;
+background-color: #E17992;
+height: 100vh;
+position: absolute;
+right: 0;
+top: 0;
+z-index: 1000;
+transition: transform 1s linear ;
+position: fixed;
+padding-top: 23px;
+padding-left: 24px;
+}
+
+}
+
+@media screen and (min-width: 768px){
+.mobile-menu-but{
+color: #D41443;
+background-color: white;
+width: 186px;
+height: 44px;
+border-radius: 22px;
+display: block;
+/* Buy now */
+
+border: none;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 21px;
+align-items: center;
+text-align: center;
+
+color: #D41443;
+margin: 0 auto;
+
+}
+
+}
+
+@media screen and (min-width: 768px){
+.mobile-menu-svg{
+width: 14px;
+height: 14px;
+display: block;
+margin-bottom: 23px;
+margin-left: 200px;
+}
+}
+
+
+@media screen and (min-width: 768px){
+.mobile-menu-nav{
+margin-top: 23px;
+}
+}
+@media screen and (min-width: 768px){
+.mobile-menu-nav{
+margin-top: 23px;
+}
+}
+
+@media screen and (min-width: 768px){
+.mobile-menu-nav-item:not(:first-child){
+margin-top: 22px;
+    
+}
+}
+
+@media screen and (min-width: 768px){
+.mobile-menu-a{
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 18px;
+
+;
+
+color: #FFFFFF;
+
+}
+}
+@media screen and (min-width: 768px){
+.mobile-menu-nav-item{
+border-top: 1px solid rgba(153, 151, 151, 0.5);
+   
+padding: 13px 0;
+
+}
+}
+
+@media screen and (min-width: 768px){
+.is-hidden{
+transform: translateX(100%);
+}
+}
+@media screen and (min-width: 1200px){
+.mobile-menu{
+    display: none;
+}
+
 }
