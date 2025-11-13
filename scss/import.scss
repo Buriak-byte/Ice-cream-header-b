@@ -1,9 +1,14 @@
 @import "./reset";
+@import "./reset.scss";
 @import "./components/header/header";
 @import "./components/header/window";
 @import "./components/header/mobile-menu";
-@import "./components/container";
+
 @import "./components/main/products";
-@import "./reset.scss";
-@import"./container";
-@import "./components/products";
+
+
+
+@import "./components/footer/footer";
+@import "./components/main/how-its-made";
+@import "./components/main/locations";
+@import "./components/main/coments";

@@ -66,7 +66,7 @@ z-index: 4;
 }
 @media screen and (max-width: 767px){
 .header-background-ice-cream{
-background-image: url(../../../png/background-second.png);
+background-image: url(../../../images/header-ice-cream.png);
 background-repeat: no-repeat;
 
 width: 171px;
@@ -79,7 +79,7 @@ top: 9px;
 }
 @media screen and (min-width: 768px){
 .header-background-ice-cream{
-background-image: url(../../../png/fivth.png);
+background-image: url(../../../slider-pic7\ 1\ \(4\).png);
 background-repeat: no-repeat;
 display: block;
 width: 143px;
@@ -125,6 +125,34 @@ z-index: 10;
 position: absolute;
 top: 193px;
 left: 20px;
+}
+}
+@media screen and (max-width: 767px){
+.header-ps-b{
+font-family: Titan One;
+z-index: 10;
+position: absolute;
+top: 193px;
+left: 20px;
+}
+}
+@media screen and (max-width: 767px){
+.header-ps-lit-b{
+/* ice cream made with passion */
+
+
+
+font-family: 'Titan One';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 30px;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
 }
 }
 @media screen and (min-width: 1200px){
@@ -174,6 +202,26 @@ color: #D41443;
 }
 
 }
+
+@media screen and (max-width: 320px){
+
+.header-ps-big-b{
+/* ice cream made with passion */
+font-family: 'Titan One';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 96.5%;
+/* or 46px */
+text-transform: uppercase;
+
+color: #D41443;
+
+
+
+}
+
+}
 @media screen and (min-width: 1200px){
 .header-ps-big-lap{
 /* ice cream made with passion */
@@ -208,7 +256,18 @@ z-index: 5;
 }
 }
 
+@media screen and (min-width: 768px){
+.header-li-but-fir{
 
+   display: none;
+}
+}
+@media screen and (min-width: 768px){
+.header-li-but-sec{
+
+   display: none;
+}
+}
 @media screen and (max-width: 320px){
 .header-li-but-fir{
 width: 61.2px;
@@ -222,6 +281,7 @@ color: white;
 background-color: #D41443;
 border-style: none;
 border-radius: 20px;
+
 }
 }
 @media screen and (max-width: 320px){
@@ -393,7 +453,7 @@ right: 20px;
 @media screen and (max-width: 767px){
 .header-first-svg-b{
 position: absolute;
-top: 25px;
+top: 20px;
 right: 20px;
 }
 
@@ -611,7 +671,7 @@ display: none;
 
 @media screen and (min-width: 768px){
 .header-background-milk-tab{
-background-image: url(../../../png/forth.png);
+background-image: url(../../../slider-pic5\ 1\ \(2\).png);
 width: 124px;
 height: 126px;
 position: absolute;
@@ -728,7 +788,7 @@ font-size: 9px;
 @media screen and (min-width: 768px){
 
 .header-background-tasty{
-background-image: url(../../../png/sixth.png);
+background-image: url(../../../slider-pic4\ 1\ \(2\).png);
 width: 168px;
 height: 133px;
 position: absolute;
@@ -1046,5 +1106,86 @@ height: 538px;
 .ul-only-lap-fir-a-a:hover{
 color: #D41443;
 
+}
+}
+@media screen and (max-width: 767px){
+.ul-only-lap-fir{
+
+display: none;
+}
+
+}
+
+@media screen and (max-width: 767px){
+.header-but-fir-tab{
+
+display: none;
+}
+
+}
+
+@media screen and (max-width: 767px){
+.header-ps-lit{
+display: none;
+
+}
+
+}
+@media screen and (max-width: 767px){
+.header-ps-big{
+display: none;
+
+}
+
+}
+@media screen and (max-width: 767px){
+.header-li-but-fir-tab{
+display: none;
+
+}
+
+}
+@media screen and (max-width: 767px){
+.header-li-but-sec-tab{
+display: none;
+
+}
+
+}
+@media screen and (max-width: 767px){
+.header-background-milk-ul-tab-but{
+display: none;
+
+}
+
+}
+@media screen and (max-width: 767px){
+.header-background-milk-ul-tab-item{
+display: none;
+
+}
+
+}
+@media screen and (max-width: 1199px){
+.ul-only-lap-fir{
+
+
+display: none;
+
+}
+}
+
+@media screen and (max-width: 1199px){
+.header-ps-lap{
+
+
+   display: none;
+}
+
+}
+@media screen and (min-width: 768px){
+.header-ps-b{
+
+display: none;
 }
 }
